@@ -1,0 +1,530 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H t
+Relation:     corefer
+Instances:    98919
+Attributes:   19
+              dist
+              dist-en
+              alias
+              similarity
+              C1
+              S1
+              P1
+              NP1
+              DT1
+              G1
+              Q1
+              C2
+              S2
+              P2
+              NP2
+              DT2
+              G2
+              Q2
+              class
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.675839012630157
+    Node 2    -1.7002826961120203
+    Node 3    -2.3519166401339415
+    Node 4    -5.246241734296896
+    Node 5    -1.4982465086900996
+    Node 6    -1.8772187466981534
+    Node 7    2.446240363243094
+    Node 8    -1.897561292651835
+    Node 9    -1.771880558176617
+    Node 10    1.5880166722977707
+    Node 11    2.1575269889039332
+    Node 12    -1.6502705101184036
+    Node 13    -7.538180864031815
+    Node 14    6.337507298003534
+    Node 15    -2.1329680696743596
+    Node 16    -2.0413897394063403
+    Node 17    -3.298067338930561
+    Node 18    -13.653090089865856
+    Node 19    1.7978688004342562
+    Node 20    2.4292171043188318
+    Node 21    5.9369276301722005
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.6758390126301566
+    Node 2    1.700282696112019
+    Node 3    2.3519166401339406
+    Node 4    5.246241734296892
+    Node 5    1.498246508690101
+    Node 6    1.8772187466981536
+    Node 7    -2.4462403632430925
+    Node 8    1.8975612926518342
+    Node 9    1.771880558176618
+    Node 10    -1.5880166722977718
+    Node 11    -2.157526988903932
+    Node 12    1.6502705101184043
+    Node 13    7.538180864031815
+    Node 14    -6.3375072980035325
+    Node 15    2.1329680696743596
+    Node 16    2.0413897394063394
+    Node 17    3.2980673389305606
+    Node 18    13.653090089865762
+    Node 19    -1.7978688004342556
+    Node 20    -2.429217104318832
+    Node 21    -5.936927630172201
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.704002158527455
+    Attrib dist    2.8889145085930754
+    Attrib dist-en    32.03226349397719
+    Attrib alias    6.2494988445949815
+    Attrib similarity    1.4677471421959511
+    Attrib C1    -3.1544992682962656
+    Attrib S1    2.9286972730702687
+    Attrib P1    -25.404802773129678
+    Attrib NP1    13.39558144032003
+    Attrib DT1    11.86246951012695
+    Attrib G1    -30.341542601006918
+    Attrib Q1    -0.8627849022148979
+    Attrib C2    -3.19171525011937
+    Attrib S2    17.62751962261027
+    Attrib P2    -13.50053789632395
+    Attrib NP2    16.608433116241258
+    Attrib DT2    -7.412751930161647
+    Attrib G2    -16.48714432013203
+    Attrib Q2    0.46797663792961797
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -28.23167264844865
+    Attrib dist    -0.31446319235161124
+    Attrib dist-en    16.366275169242137
+    Attrib alias    36.681893034388935
+    Attrib similarity    10.021058925944411
+    Attrib C1    -5.105313086926045
+    Attrib S1    -4.293736007285024
+    Attrib P1    2.6076441630175347
+    Attrib NP1    -17.011987110600185
+    Attrib DT1    1.3954384483383058
+    Attrib G1    -7.930974667001422
+    Attrib Q1    35.913881329789945
+    Attrib C2    2.6450744309393084
+    Attrib S2    -0.8964113779122087
+    Attrib P2    8.591154812478477
+    Attrib NP2    -10.061024682653974
+    Attrib DT2    -2.051608059833842
+    Attrib G2    3.40130979043638
+    Attrib Q2    39.19376714244441
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -16.451413512794325
+    Attrib dist    0.0866486034254691
+    Attrib dist-en    10.116794109198525
+    Attrib alias    24.24379996982807
+    Attrib similarity    38.892419771644676
+    Attrib C1    -15.93419675543912
+    Attrib S1    -7.260890181340961
+    Attrib P1    -4.317244953610546
+    Attrib NP1    1.9104784247857458
+    Attrib DT1    16.304869556360888
+    Attrib G1    60.22846200322293
+    Attrib Q1    7.332061673813649
+    Attrib C2    1.9716024333200248
+    Attrib S2    13.912646674038955
+    Attrib P2    -18.028280627403422
+    Attrib NP2    -0.8201599550665107
+    Attrib DT2    5.458330684809319
+    Attrib G2    -40.03750831002755
+    Attrib Q2    -0.3332612009437176
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -18.337207268031598
+    Attrib dist    -11.567922037097313
+    Attrib dist-en    -0.4227646524403504
+    Attrib alias    19.7777223576518
+    Attrib similarity    -1.9046148220400259
+    Attrib C1    1.3331379923726947
+    Attrib S1    14.383636325464382
+    Attrib P1    14.379716257227987
+    Attrib NP1    4.447152152094384
+    Attrib DT1    10.19803716387868
+    Attrib G1    0.0830141117547547
+    Attrib Q1    0.6859904588142905
+    Attrib C2    8.070960798857053
+    Attrib S2    -6.816118005169243
+    Attrib P2    -40.80775394902359
+    Attrib NP2    -16.6770808180072
+    Attrib DT2    16.16754675011498
+    Attrib G2    -6.13294942875209
+    Attrib Q2    5.98440571586139
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -41.62217984442019
+    Attrib dist    -0.3504765097772259
+    Attrib dist-en    16.484095747405973
+    Attrib alias    43.53836412045984
+    Attrib similarity    25.446217525797017
+    Attrib C1    -12.688663158467348
+    Attrib S1    8.371514449422849
+    Attrib P1    -11.414698923164664
+    Attrib NP1    -5.650861584462937
+    Attrib DT1    3.2591373049109356
+    Attrib G1    -31.53278729703793
+    Attrib Q1    0.08824874977768027
+    Attrib C2    -5.832163627861827
+    Attrib S2    -58.77918223254629
+    Attrib P2    -5.720065933334598
+    Attrib NP2    -43.17230020455686
+    Attrib DT2    -1.1082341765567647
+    Attrib G2    7.089620359924578
+    Attrib Q2    -8.481812415158323
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -24.396316906926696
+    Attrib dist    1.7568831243571765
+    Attrib dist-en    19.54564160942544
+    Attrib alias    20.458241525410852
+    Attrib similarity    0.5366120518119462
+    Attrib C1    -32.139490287497324
+    Attrib S1    4.272797868370843
+    Attrib P1    28.01798544958256
+    Attrib NP1    -1.9961910509247662
+    Attrib DT1    -28.766618065672038
+    Attrib G1    32.303787998216855
+    Attrib Q1    8.13976595724515
+    Attrib C2    7.622949533358266
+    Attrib S2    2.2345476021909554
+    Attrib P2    -11.609658517116216
+    Attrib NP2    -18.968244870216974
+    Attrib DT2    11.871907557383341
+    Attrib G2    -34.978393027872784
+    Attrib Q2    16.07962272924206
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -7.30498005329356
+    Attrib dist    0.6546559559983566
+    Attrib dist-en    18.147152715724427
+    Attrib alias    8.18047803042359
+    Attrib similarity    13.09326707021179
+    Attrib C1    -2.5010756574306754
+    Attrib S1    -23.66482100444807
+    Attrib P1    -5.850463149655962
+    Attrib NP1    -7.0147423640412985
+    Attrib DT1    10.586792715893852
+    Attrib G1    -8.843372661885576
+    Attrib Q1    -5.250041837224603
+    Attrib C2    -2.406409063021733
+    Attrib S2    -2.9728463800988125
+    Attrib P2    11.413450767189508
+    Attrib NP2    4.600437300587631
+    Attrib DT2    5.517533512932818
+    Attrib G2    -13.11810791111398
+    Attrib Q2    -3.9183741096721536
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.6006204986678905
+    Attrib dist    -0.5601947578260708
+    Attrib dist-en    -2.8014266095524087
+    Attrib alias    8.631728510369129
+    Attrib similarity    37.70224868386221
+    Attrib C1    -0.07937014181817972
+    Attrib S1    4.5514386437444845
+    Attrib P1    -21.562026283880623
+    Attrib NP1    7.7087867415589715
+    Attrib DT1    -1.9049031386501356
+    Attrib G1    -25.787020274157516
+    Attrib Q1    -6.153003708641492
+    Attrib C2    10.24042189318589
+    Attrib S2    14.187106738657977
+    Attrib P2    7.401542394837855
+    Attrib NP2    -5.743999753540164
+    Attrib DT2    -6.995449462828621
+    Attrib G2    12.638667196988012
+    Attrib Q2    2.9039041375623884
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    10.48231969814291
+    Attrib dist    1.083448220151164
+    Attrib dist-en    2.2895749676564865
+    Attrib alias    -14.65209484895183
+    Attrib similarity    22.99370879513377
+    Attrib C1    -20.69321525089901
+    Attrib S1    38.26958078656238
+    Attrib P1    5.334908777039058
+    Attrib NP1    24.790555798816452
+    Attrib DT1    -7.320178728777134
+    Attrib G1    -15.632345538084124
+    Attrib Q1    -9.984720733052205
+    Attrib C2    22.285119850507606
+    Attrib S2    5.526212505319196
+    Attrib P2    -4.915281188505211
+    Attrib NP2    -1.4809422053796166
+    Attrib DT2    -19.527817667542433
+    Attrib G2    -10.17223993542138
+    Attrib Q2    24.02244490222239
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -6.749437424157353
+    Attrib dist    0.890486665518053
+    Attrib dist-en    4.096722972099632
+    Attrib alias    0.6103067692720017
+    Attrib similarity    -9.304469305801701
+    Attrib C1    -8.97211730850884
+    Attrib S1    21.17092576804405
+    Attrib P1    -28.616639759422444
+    Attrib NP1    17.1437559709584
+    Attrib DT1    7.378039593630296
+    Attrib G1    24.229157146492664
+    Attrib Q1    22.926695442596856
+    Attrib C2    -3.8791408896625783
+    Attrib S2    8.699555527120117
+    Attrib P2    -18.166446996678744
+    Attrib NP2    -8.368388011195155
+    Attrib DT2    10.653501353565868
+    Attrib G2    4.9935056303167515
+    Attrib Q2    -4.453390161716567
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -20.018623884405997
+    Attrib dist    0.17193319846159844
+    Attrib dist-en    -3.1633532484439053
+    Attrib alias    24.710084842636896
+    Attrib similarity    10.574228094072874
+    Attrib C1    -10.10845369013585
+    Attrib S1    -15.213298761404003
+    Attrib P1    0.2454915508377803
+    Attrib NP1    -5.594753658903928
+    Attrib DT1    1.14054051212129
+    Attrib G1    -31.43412587927121
+    Attrib Q1    14.278751755223356
+    Attrib C2    -5.807016265818261
+    Attrib S2    13.53419484507161
+    Attrib P2    -29.715622583952847
+    Attrib NP2    8.943833880337712
+    Attrib DT2    7.460105071436945
+    Attrib G2    21.966862467012977
+    Attrib Q2    -7.318302510674823
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -12.802494344043897
+    Attrib dist    46.17754244546464
+    Attrib dist-en    8.564339097482614
+    Attrib alias    13.535703955085872
+    Attrib similarity    3.314507113267836
+    Attrib C1    3.6349863836868432
+    Attrib S1    -0.4660508494044223
+    Attrib P1    -0.6350570458267867
+    Attrib NP1    -10.850562994721223
+    Attrib DT1    9.272098771790802
+    Attrib G1    1.406603894612004
+    Attrib Q1    -1.3874658072855517
+    Attrib C2    0.6322999347390168
+    Attrib S2    0.047199068043351895
+    Attrib P2    2.1209792806226835
+    Attrib NP2    1.285439553706302
+    Attrib DT2    1.1914048537750965
+    Attrib G2    -0.4347725906979691
+    Attrib Q2    -1.7106179062039768
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -21.17544972707915
+    Attrib dist    -3.2716604399781275
+    Attrib dist-en    14.602344866489497
+    Attrib alias    -10.576269751878252
+    Attrib similarity    3.2522822722229723
+    Attrib C1    -33.50613389339236
+    Attrib S1    3.5879376548988207
+    Attrib P1    -17.052600667911843
+    Attrib NP1    5.413195847134869
+    Attrib DT1    13.948967266081763
+    Attrib G1    -0.9977255587801656
+    Attrib Q1    -3.787113142982187
+    Attrib C2    -19.552191009206798
+    Attrib S2    16.702653741750673
+    Attrib P2    -23.266194353605968
+    Attrib NP2    -0.7273255276242716
+    Attrib DT2    19.051216758465504
+    Attrib G2    5.512061320750879
+    Attrib Q2    -1.0800449803039753
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    13.61564770100811
+    Attrib dist    -0.764696862453964
+    Attrib dist-en    -20.229279816542988
+    Attrib alias    2.201451430646666
+    Attrib similarity    96.51801245424208
+    Attrib C1    -0.5129241970260823
+    Attrib S1    -17.895457806143614
+    Attrib P1    -9.040284216992875
+    Attrib NP1    -4.718310405494335
+    Attrib DT1    -4.117429552872218
+    Attrib G1    -3.637528206433474
+    Attrib Q1    -0.6038042950858669
+    Attrib C2    1.294135384545721
+    Attrib S2    0.5886807371880576
+    Attrib P2    -24.07591175665492
+    Attrib NP2    -0.952684171346637
+    Attrib DT2    -1.1827805322192833
+    Attrib G2    -1.4544385696853015
+    Attrib Q2    -0.11781739602022125
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    9.030023182595768
+    Attrib dist    1.1871995418222148
+    Attrib dist-en    -12.290342247357383
+    Attrib alias    -6.149720277226647
+    Attrib similarity    3.383467277877115
+    Attrib C1    3.6817580048955216
+    Attrib S1    6.15466475043575
+    Attrib P1    17.429167154194317
+    Attrib NP1    3.2738231353510483
+    Attrib DT1    0.6621869819671434
+    Attrib G1    -53.39534724751708
+    Attrib Q1    -2.191602888520878
+    Attrib C2    -1.638094708458751
+    Attrib S2    -9.810119210238893
+    Attrib P2    0.8169135049696221
+    Attrib NP2    -0.34457205603593505
+    Attrib DT2    -1.0977548115616476
+    Attrib G2    74.34906652481297
+    Attrib Q2    1.9841476766232278
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    1.1976108637282927
+    Attrib dist    -1.648016830688464
+    Attrib dist-en    -4.257567458793381
+    Attrib alias    5.191090582430109
+    Attrib similarity    -3.100856971957711
+    Attrib C1    -5.500869278105211
+    Attrib S1    -1.5919912293156473
+    Attrib P1    4.386011738998208
+    Attrib NP1    0.4853353960407224
+    Attrib DT1    17.1713631096875
+    Attrib G1    -0.14295873921229363
+    Attrib Q1    14.166468181971293
+    Attrib C2    9.887937637928578
+    Attrib S2    36.943896038563764
+    Attrib P2    -1.6113314825947482
+    Attrib NP2    26.829544046802443
+    Attrib DT2    -8.477337545557996
+    Attrib G2    7.235609841547983
+    Attrib Q2    -2.1632100824880256
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    0.12016883583536556
+    Attrib dist    -1.6099752590695269
+    Attrib dist-en    2.474913171627251
+    Attrib alias    17.09351414487496
+    Attrib similarity    -0.678639119063883
+    Attrib C1    -1.4254648845920646
+    Attrib S1    0.3873492600090737
+    Attrib P1    -2.4374942822930876
+    Attrib NP1    3.63196073885843
+    Attrib DT1    3.3937948076928732
+    Attrib G1    -3.4675779017274735
+    Attrib Q1    -3.723145559956174
+    Attrib C2    -0.7689813827827653
+    Attrib S2    5.829213739885074
+    Attrib P2    -0.21083449389592585
+    Attrib NP2    0.17173953564537303
+    Attrib DT2    0.9677459655239092
+    Attrib G2    3.600921596695951
+    Attrib Q2    -3.412310156001167
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -25.770175790746933
+    Attrib dist    -1.7632475224003676
+    Attrib dist-en    -18.633580786980534
+    Attrib alias    16.46195801939931
+    Attrib similarity    9.016923006521994
+    Attrib C1    16.004687025147927
+    Attrib S1    2.018356854597037
+    Attrib P1    -20.941949464071826
+    Attrib NP1    -18.75570854239724
+    Attrib DT1    0.43504879957064646
+    Attrib G1    38.0570967598382
+    Attrib Q1    -30.278507620737194
+    Attrib C2    -1.0813034871323424
+    Attrib S2    -11.02577478858367
+    Attrib P2    31.680551998532227
+    Attrib NP2    10.277044124707098
+    Attrib DT2    4.221876280861395
+    Attrib G2    -44.93328797537697
+    Attrib Q2    34.65559108024027
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -25.276560488055544
+    Attrib dist    0.931753124258534
+    Attrib dist-en    21.52168254993055
+    Attrib alias    19.879902254843262
+    Attrib similarity    -8.521423754642274
+    Attrib C1    1.8203928089681443
+    Attrib S1    19.58173708552512
+    Attrib P1    7.53782093681808
+    Attrib NP1    1.4271886156986169
+    Attrib DT1    -2.8301425659285613
+    Attrib G1    -22.859482576074836
+    Attrib Q1    19.068546077325006
+    Attrib C2    3.7316169384547306
+    Attrib S2    3.8104105838305373
+    Attrib P2    -7.959071223660952
+    Attrib NP2    1.5303778443785903
+    Attrib DT2    -6.3055609859597475
+    Attrib G2    -49.46227414475946
+    Attrib Q2    -35.53836240270644
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    0.14133391441782775
+    Attrib dist    4.693205448539015
+    Attrib dist-en    1.9792710102325315
+    Attrib alias    -4.939546565965613
+    Attrib similarity    -3.430867745034022
+    Attrib C1    -3.3244666282440116
+    Attrib S1    -1.991180431783265
+    Attrib P1    -3.412343526598248
+    Attrib NP1    -0.8051976465826634
+    Attrib DT1    1.5177143121580934
+    Attrib G1    -53.252769973203094
+    Attrib Q1    -1.6369834417552125
+    Attrib C2    -7.838028415679319
+    Attrib S2    7.508906754549321
+    Attrib P2    8.565931216789116
+    Attrib NP2    17.80730822219187
+    Attrib DT2    2.545896824089845
+    Attrib G2    56.1181013848552
+    Attrib Q2    -0.9468310882753911
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 500.46 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       85394               86.3272 %
+Incorrectly Classified Instances     13525               13.6728 %
+Kappa statistic                          0.7008
+Mean absolute error                      0.1865
+Root mean squared error                  0.3189
+Relative absolute error                 40.5912 %
+Root relative squared error             66.5327 %
+Total Number of Instances            98919     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.9       0.203      0.888     0.9       0.894      0.924    0
+                 0.797     0.1        0.817     0.797     0.806      0.924    1
+Weighted Avg.    0.863     0.166      0.863     0.863     0.863      0.924
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 57210  6326 |     a = 0
+  7199 28184 |     b = 1
+
