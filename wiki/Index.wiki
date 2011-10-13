@@ -19,6 +19,8 @@ DATA fron ConLL websites
 
 Ontonotes 4.0 (not public, provided by LDC)
 
+gender.data provided by Shane Bergsma and Dekang Lin (http://conll.bbn.com/download/gender.data.gz)
+
 === Configuring document files ===
 The utility ''Gentlist.pl'' gives instructions to generate lists of document used by Poly-co
 Please read the comments inside carrefully. Consider that you have to finish the configuration
@@ -28,7 +30,7 @@ Put the generated CoNLL files in the folder ./conll-2011  \\
 The outputs folder of Poly-co is ./outputs 
 
 === Configuration of Poly-co === 
-You will need the last version of Perl to run polyco, and Weka tools (needs Sun Java VM). This will be sufficient to use the Perceptron and Tree models. To use the SVM classifier option, you will need to encapsulate LibSVM in Weka (read http://weka.wikispaces.com/LibSVM).  
+You will need the last version of Perl to run polyco, and Weka tools (needs Sun Java VM). This will be sufficient to use the Perceptron and Tree models. To use the SVM classifier option, you will need to encapsulate LibSVM in Weka (read  http://weka.wikispaces.com/LibSVM).  
 
 To let perls scripts calling Weka classifiers, don't forget the path's :
 
