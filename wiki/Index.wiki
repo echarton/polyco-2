@@ -43,3 +43,5 @@ CLASSPATH=$CLASSPATH:/usr/share/java/weka.jar:/usr/share/java/libsvm.jar
 = Files =
 
 The main tool is writen in perl. It is divided in to part, a training software ( '''conll-train.pl''' ) and a co-reference detection software ('''conll-expe.pl''').
+
+The precalculated models used in the campaign are in the models folder. So you mostly don't have to use the conll-train.pl tool to label coreferences.  
