@@ -23,7 +23,7 @@ gender.data provided by Shane Bergsma and Dekang Lin (http://conll.bbn.com/downl
 
 === Configuring document files ===
 The utility ''Gentlist.pl'' gives instructions to generate lists of document used by Poly-co
-Please read the comments inside carrefully. Consider that you have to finish the configuration
+Please read the comments inside carrefully. Consider that you have to complete the configuration
 of CoNLL documents before using this tool.  
 
 Put the generated CoNLL files in the folder ./conll-2011  \\
