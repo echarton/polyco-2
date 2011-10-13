@@ -23,7 +23,6 @@ $mode = "MENTIONS"; ### open / closed / mentions
 ###############################################
 my @files = (); ### fichiers à lire
 my $outputfile = "\/home\/eric\/conll-st-2011-v1\/output";
-
 my $testlist = "dev_gold.list"; ### Nom et chemin du fichier liste à tester
  
 open(in, $testlist) || die "Pas de liste de fichiers à traiter\n";
@@ -90,5 +89,6 @@ print "    $c1-$c2 lines\n";
 ###############################################
 
 print "[4] Calcul du score sur sortie Générale\n";
-exec("perl /home/eric/conll-st-2011-v1/scorer/scorer.pl $metrics $outputfile\/global.reference.conll $outputfile\/global.calculated.conll ");
-print "    perl /home/eric/conll-st-2011-v1/scorer/scorer.pl $metrics $outputfile\/global.reference.conll $outputfile\/global.calculated.conll \n";
+exec("perl ./scorer/scorer.pl $metrics $outputfile\/global.reference.conll $outputfile\/global.calculated.conll ");
+print "    perl ./scorer/scorer.pl $metrics $outputfile\/global.reference.conll $outputfile\/global.calculated.conll \n";
+

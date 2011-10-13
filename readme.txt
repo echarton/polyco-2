@@ -21,17 +21,17 @@ Surely, it will be difficult to use for Master Student not familiar with evaluat
 I can help but not doing it for you :-)
 
 ----------------------------
--     Requirement
+-   External Requirement
 ----------------------------
 -Software
 PERL
 WEKA
-SVMLib encapsultated in Weka
+SVMLib encapsultated in Weka (only if you use SVM option) 
 
 - Datas
 DATA fron ConLL websites
 Ontonotes 4.0 (not public, provided by LDC) 
-
+gender.data provided by Shane Bergsma and Dekang Lin (http://conll.bbn.com/download/gender.data.gz)
 
 ----------------------------
 -     Configuring 
@@ -43,6 +43,8 @@ of CoNLL documents before using this tool.
 
 Put the generated CoNLL files in the folder ./conll-2011
 The outputs folder of Poly-co is ./outputs 
+
+Put the gender.data resource in tthe resources folder
 
 ----------------------------
 -     Configuration
